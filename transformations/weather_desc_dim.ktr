@@ -430,7 +430,7 @@
     <created_date>2019/06/23 17:10:00.918</created_date>
     <modified_user>-</modified_user>
     <modified_date>2019/06/23 17:10:00.918</modified_date>
-    <key_for_session_key/>
+    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
@@ -493,6 +493,16 @@
   <order>
     <hop>
       <from>CSV file input</from>
+      <to>Row normaliser</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Row normaliser</from>
+      <to>Select values</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Select values</from>
       <to>Unique rows (HashSet)</to>
       <enabled>Y</enabled>
     </hop>
@@ -513,7 +523,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>${Internal.Entry.Current.Directory}/../data-set/weather_descriptions_list.csv</filename>
+    <filename>${Internal.Entry.Current.Directory}/../data-set/weather_description.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -528,13 +538,409 @@
     <encoding/>
     <fields>
       <field>
-        <name>description</name>
+        <name>datetime</name>
+        <type>Date</type>
+        <format>yyyy-MM-dd HH:mm:ss</format>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Vancouver</name>
         <type>String</type>
         <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>255</length>
+        <length>13</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Portland</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>16</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>San Francisco</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>16</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Seattle</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>16</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Los Angeles</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>16</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>San Diego</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>16</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Las Vegas</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>12</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Phoenix</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>16</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Albuquerque</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>16</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Denver</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>21</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>San Antonio</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>28</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Dallas</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>16</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Houston</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>16</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Kansas City</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>27</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Minneapolis</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>16</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Saint Louis</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>23</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Chicago</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>23</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Nashville</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>16</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Indianapolis</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>23</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Atlanta</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>23</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Detroit</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>23</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Jacksonville</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>22</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Charlotte</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>23</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Miami</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>28</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Pittsburgh</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>23</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Toronto</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>23</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Philadelphia</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>20</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>New York</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>23</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Montreal</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>23</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Boston</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>23</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Beersheba</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>15</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Tel Aviv District</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>16</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Eilat</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>16</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Haifa</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>15</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Nahariyya</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>15</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Jerusalem</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>16</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
@@ -548,8 +954,216 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>160</xloc>
-      <yloc>144</yloc>
+      <xloc>80</xloc>
+      <yloc>64</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Row normaliser</name>
+    <type>Normaliser</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <typefield>city</typefield>
+    <fields>
+      <field>
+        <name>Vancouver</name>
+        <value>Vancouver</value>
+        <norm>weather_description</norm>
+      </field>
+      <field>
+        <name>Portland</name>
+        <value>Portland</value>
+        <norm>weather_description</norm>
+      </field>
+      <field>
+        <name>San Francisco</name>
+        <value>San Francisco</value>
+        <norm>weather_description</norm>
+      </field>
+      <field>
+        <name>Seattle</name>
+        <value>Seattle</value>
+        <norm>weather_description</norm>
+      </field>
+      <field>
+        <name>Los Angeles</name>
+        <value>Los Angeles</value>
+        <norm>weather_description</norm>
+      </field>
+      <field>
+        <name>San Diego</name>
+        <value>San Diego</value>
+        <norm>weather_description</norm>
+      </field>
+      <field>
+        <name>Las Vegas</name>
+        <value>Las Vegas</value>
+        <norm>weather_description</norm>
+      </field>
+      <field>
+        <name>Phoenix</name>
+        <value>Phoenix</value>
+        <norm>weather_description</norm>
+      </field>
+      <field>
+        <name>Albuquerque</name>
+        <value>Albuquerque</value>
+        <norm>weather_description</norm>
+      </field>
+      <field>
+        <name>Denver</name>
+        <value>Denver</value>
+        <norm>weather_description</norm>
+      </field>
+      <field>
+        <name>San Antonio</name>
+        <value>San Antonio</value>
+        <norm>weather_description</norm>
+      </field>
+      <field>
+        <name>Dallas</name>
+        <value>Dallas</value>
+        <norm>weather_description</norm>
+      </field>
+      <field>
+        <name>Houston</name>
+        <value>Houston</value>
+        <norm>weather_description</norm>
+      </field>
+      <field>
+        <name>Kansas City</name>
+        <value>Kansas City</value>
+        <norm>weather_description</norm>
+      </field>
+      <field>
+        <name>Minneapolis</name>
+        <value>Minneapolis</value>
+        <norm>weather_description</norm>
+      </field>
+      <field>
+        <name>Saint Louis</name>
+        <value>Saint Louis</value>
+        <norm>weather_description</norm>
+      </field>
+      <field>
+        <name>Chicago</name>
+        <value>Chicago</value>
+        <norm>weather_description</norm>
+      </field>
+      <field>
+        <name>Nashville</name>
+        <value>Nashville</value>
+        <norm>weather_description</norm>
+      </field>
+      <field>
+        <name>Indianapolis</name>
+        <value>Indianapolis</value>
+        <norm>weather_description</norm>
+      </field>
+      <field>
+        <name>Atlanta</name>
+        <value>Atlanta</value>
+        <norm>weather_description</norm>
+      </field>
+      <field>
+        <name>Detroit</name>
+        <value>Detroit</value>
+        <norm>weather_description</norm>
+      </field>
+      <field>
+        <name>Jacksonville</name>
+        <value>Jacksonville</value>
+        <norm>weather_description</norm>
+      </field>
+      <field>
+        <name>Charlotte</name>
+        <value>Charlotte</value>
+        <norm>weather_description</norm>
+      </field>
+      <field>
+        <name>Miami</name>
+        <value>Miami</value>
+        <norm>weather_description</norm>
+      </field>
+      <field>
+        <name>Pittsburgh</name>
+        <value>Pittsburgh</value>
+        <norm>weather_description</norm>
+      </field>
+      <field>
+        <name>Toronto</name>
+        <value>Toronto</value>
+        <norm>weather_description</norm>
+      </field>
+      <field>
+        <name>Philadelphia</name>
+        <value>Philadelphia</value>
+        <norm>weather_description</norm>
+      </field>
+      <field>
+        <name>New York</name>
+        <value>New York</value>
+        <norm>weather_description</norm>
+      </field>
+      <field>
+        <name>Montreal</name>
+        <value>Montreal</value>
+        <norm>weather_description</norm>
+      </field>
+      <field>
+        <name>Boston</name>
+        <value>Boston</value>
+        <norm>weather_description</norm>
+      </field>
+      <field>
+        <name>Beersheba</name>
+        <value>Beersheba</value>
+        <norm>weather_description</norm>
+      </field>
+      <field>
+        <name>Tel Aviv District</name>
+        <value>Tel Aviv District</value>
+        <norm>weather_description</norm>
+      </field>
+      <field>
+        <name>Eilat</name>
+        <value>Eilat</value>
+        <norm>weather_description</norm>
+      </field>
+      <field>
+        <name>Haifa</name>
+        <value>Haifa</value>
+        <norm>weather_description</norm>
+      </field>
+      <field>
+        <name>Nahariyya</name>
+        <value>Nahariyya</value>
+        <norm>weather_description</norm>
+      </field>
+      <field>
+        <name>Jerusalem</name>
+        <value>Jerusalem</value>
+        <norm>weather_description</norm>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>240</xloc>
+      <yloc>64</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -569,7 +1183,7 @@
     <error_description/>
     <fields>
       <field>
-        <name>description</name>
+        <name>weather_description</name>
       </field>
     </fields>
     <attributes/>
@@ -581,8 +1195,40 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>336</xloc>
-      <yloc>144</yloc>
+      <xloc>528</xloc>
+      <yloc>64</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Select values</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>weather_description</name>
+        <rename/>
+      </field>
+      <select_unspecified>N</select_unspecified>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>368</xloc>
+      <yloc>64</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -604,7 +1250,7 @@
     <update>Y</update>
     <fields>
       <key>
-        <name>description</name>
+        <name>weather_description</name>
         <lookup>description</lookup>
       </key>
       <date>
@@ -638,8 +1284,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>512</xloc>
-      <yloc>144</yloc>
+      <xloc>704</xloc>
+      <yloc>64</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
