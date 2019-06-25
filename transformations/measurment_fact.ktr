@@ -532,26 +532,6 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Calculate quadrant</from>
-      <to>Quadrant Mapper</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>WindDirection Row normaliser</from>
-      <to>Add div constant</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Add div constant</from>
-      <to>Calculate quadrant</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Quadrant Mapper</from>
-      <to>Filter intermediate results</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
       <from>Select values</from>
       <to>Sort temperature</to>
       <enabled>Y</enabled>
@@ -564,11 +544,6 @@
     <hop>
       <from>Calculate additional pressure values</from>
       <to>Sort pressure</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Filter intermediate results</from>
-      <to>Sort WindDirection</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
@@ -639,6 +614,11 @@
     <hop>
       <from>WeatherDesc lookup</from>
       <to>Table output</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>WindDirection Row normaliser</from>
+      <to>Sort WindDirection</to>
       <enabled>Y</enabled>
     </hop>
   </order>
@@ -4040,233 +4020,6 @@
     </GUI>
   </step>
   <step>
-    <name>Quadrant Mapper</name>
-    <type>ValueMapper</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <field_to_use>cardinal_quadrant</field_to_use>
-    <target_field>wind_cardinal_direction</target_field>
-    <non_match_default/>
-    <fields>
-      <field>
-        <source_value>0</source_value>
-        <target_value>N</target_value>
-      </field>
-      <field>
-        <source_value>1</source_value>
-        <target_value>NE</target_value>
-      </field>
-      <field>
-        <source_value>2</source_value>
-        <target_value>NE</target_value>
-      </field>
-      <field>
-        <source_value>3</source_value>
-        <target_value>E</target_value>
-      </field>
-      <field>
-        <source_value>4</source_value>
-        <target_value>E</target_value>
-      </field>
-      <field>
-        <source_value>5</source_value>
-        <target_value>SE</target_value>
-      </field>
-      <field>
-        <source_value>6</source_value>
-        <target_value>SE</target_value>
-      </field>
-      <field>
-        <source_value>7</source_value>
-        <target_value>S</target_value>
-      </field>
-      <field>
-        <source_value>8</source_value>
-        <target_value>S</target_value>
-      </field>
-      <field>
-        <source_value>9</source_value>
-        <target_value>SW</target_value>
-      </field>
-      <field>
-        <source_value>10</source_value>
-        <target_value>SW</target_value>
-      </field>
-      <field>
-        <source_value>11</source_value>
-        <target_value>W</target_value>
-      </field>
-      <field>
-        <source_value>12</source_value>
-        <target_value>W</target_value>
-      </field>
-      <field>
-        <source_value>13</source_value>
-        <target_value>NW</target_value>
-      </field>
-      <field>
-        <source_value>14</source_value>
-        <target_value>NW</target_value>
-      </field>
-      <field>
-        <source_value>15</source_value>
-        <target_value>N</target_value>
-      </field>
-      <field>
-        <source_value>16</source_value>
-        <target_value>N</target_value>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>768</xloc>
-      <yloc>320</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Calculate quadrant</name>
-    <type>Calculator</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <failIfNoFile>Y</failIfNoFile>
-    <calculation>
-      <field_name>cardinal_div</field_name>
-      <calc_type>DIVIDE</calc_type>
-      <field_a>wind_direction</field_a>
-      <field_b>quadrant_size</field_b>
-      <field_c/>
-      <value_type>Number</value_type>
-      <value_length>-1</value_length>
-      <value_precision>-1</value_precision>
-      <remove>Y</remove>
-      <conversion_mask/>
-      <decimal_symbol/>
-      <grouping_symbol/>
-      <currency_symbol/>
-    </calculation>
-    <calculation>
-      <field_name>cardinal_quadrant</field_name>
-      <calc_type>FLOOR</calc_type>
-      <field_a>cardinal_div</field_a>
-      <field_b/>
-      <field_c/>
-      <value_type>Integer</value_type>
-      <value_length>-1</value_length>
-      <value_precision>-1</value_precision>
-      <remove>N</remove>
-      <conversion_mask/>
-      <decimal_symbol/>
-      <grouping_symbol/>
-      <currency_symbol/>
-    </calculation>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>624</xloc>
-      <yloc>320</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Add div constant</name>
-    <type>Constant</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <name>quadrant_size</name>
-        <type>Number</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif>22.5</nullif>
-        <length>-1</length>
-        <precision>-1</precision>
-        <set_empty_string>N</set_empty_string>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>480</xloc>
-      <yloc>320</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Filter intermediate results</name>
-    <type>SelectValues</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <select_unspecified>N</select_unspecified>
-      <remove>
-        <name>quadrant_size</name>
-      </remove>
-      <remove>
-        <name>cardinal_quadrant</name>
-      </remove>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>928</xloc>
-      <yloc>320</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
     <name>Join Measurments</name>
     <type>MultiwayMergeJoin</type>
     <description/>
@@ -4302,7 +4055,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1296</xloc>
+      <xloc>960</xloc>
       <yloc>224</yloc>
       <draw>Y</draw>
     </GUI>
@@ -4352,7 +4105,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1072</xloc>
+      <xloc>736</xloc>
       <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
@@ -4402,7 +4155,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1072</xloc>
+      <xloc>736</xloc>
       <yloc>128</yloc>
       <draw>Y</draw>
     </GUI>
@@ -4452,7 +4205,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1072</xloc>
+      <xloc>736</xloc>
       <yloc>224</yloc>
       <draw>Y</draw>
     </GUI>
@@ -4502,7 +4255,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1072</xloc>
+      <xloc>736</xloc>
       <yloc>320</yloc>
       <draw>Y</draw>
     </GUI>
@@ -4552,7 +4305,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1072</xloc>
+      <xloc>736</xloc>
       <yloc>416</yloc>
       <draw>Y</draw>
     </GUI>
@@ -4624,7 +4377,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1424</xloc>
+      <xloc>1088</xloc>
       <yloc>224</yloc>
       <draw>Y</draw>
     </GUI>
@@ -4681,7 +4434,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1568</xloc>
+      <xloc>1232</xloc>
       <yloc>224</yloc>
       <draw>Y</draw>
     </GUI>
@@ -4738,7 +4491,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1712</xloc>
+      <xloc>1376</xloc>
       <yloc>224</yloc>
       <draw>Y</draw>
     </GUI>
@@ -4795,7 +4548,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1840</xloc>
+      <xloc>1504</xloc>
       <yloc>224</yloc>
       <draw>Y</draw>
     </GUI>
@@ -5500,7 +5253,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1072</xloc>
+      <xloc>736</xloc>
       <yloc>512</yloc>
       <draw>Y</draw>
     </GUI>
@@ -5588,7 +5341,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1968</xloc>
+      <xloc>1632</xloc>
       <yloc>224</yloc>
       <draw>Y</draw>
     </GUI>
