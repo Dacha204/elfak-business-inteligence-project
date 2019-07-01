@@ -1,0 +1,40 @@
+version: '3.7'
+
+services:
+  elastic-search:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.2.0
+    container_name: es
+    environment:
+      - cluster.name=docker-cluster
+      - bootstrap.memory_lock=true
+      - discovery.type=single-node
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - es-data:/usr/share/elasticsearch/data
+    ports:
+      - 9200:9200
+    networks:
+      - bi-net
+  
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.2.0
+    container_name: es-kibana
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elastic-search:9200
+    ports:
+      - 5601:5601
+    networks:
+      - bi-net
+    depends_on:
+      - elastic-search
+
+volumes:
+  es-data:
+    driver: local
+
+networks:
+  bi-net:
