@@ -1,0 +1,33 @@
+mappings:
+  properties:
+    temperature:
+      properties:
+        kelvin: {type: float}
+        celsius: {type: float}
+        fahrenheit: {type: float}
+    huminity:
+      properties:
+        percentage: {type: float}
+    pressure:
+      properties:
+        mbars: {type: float}
+        standard_difference: {type: float}
+    wind:
+      properties:
+        direction: {type: float}
+        speed: {type: float}
+    date:
+      properties:
+        date_time: {type: date, format: "dd.MM.yyyy HH:mm"}
+        day_of_year: {type: integer}
+        year_week: {type: integer}
+        year_quarter: {type: integer}
+        am_pm: {type: keyword}
+        astronomical_season: {type: keyword}
+        meteorological_season: {type: keyword}
+    city:
+      properties:
+        name: {type: keyword}
+        country: {type: keyword}
+        location: {type: geo_point}
+    description: {type: text}
