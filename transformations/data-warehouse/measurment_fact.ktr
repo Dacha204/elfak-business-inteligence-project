@@ -826,7 +826,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>${Internal.Entry.Current.Directory}/../data-set/humidity.csv</filename>
+    <filename>${Internal.Entry.Current.Directory}/../../data-set/humidity.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -1522,7 +1522,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>${Internal.Entry.Current.Directory}/../data-set/pressure.csv</filename>
+    <filename>${Internal.Entry.Current.Directory}/../../data-set/pressure.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -2939,7 +2939,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>${Internal.Entry.Current.Directory}/../data-set/temperature.csv</filename>
+    <filename>${Internal.Entry.Current.Directory}/../../data-set/temperature.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -3386,7 +3386,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>${Internal.Entry.Current.Directory}/../data-set/weather_description.csv</filename>
+    <filename>${Internal.Entry.Current.Directory}/../../data-set/weather_description.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -4098,7 +4098,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>${Internal.Entry.Current.Directory}/../data-set/wind_direction.csv</filename>
+    <filename>${Internal.Entry.Current.Directory}/../../data-set/wind_direction.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -4753,7 +4753,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>${Internal.Entry.Current.Directory}/../data-set/wind_speed.csv</filename>
+    <filename>${Internal.Entry.Current.Directory}/../../data-set/wind_speed.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>

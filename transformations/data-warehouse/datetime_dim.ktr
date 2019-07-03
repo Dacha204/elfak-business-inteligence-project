@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>city_dim</name>
+    <name>datetime_dim</name>
     <description/>
     <extended_description/>
     <trans_version/>
     <trans_type>Normal</trans_type>
-    <trans_status>0</trans_status>
     <directory>/</directory>
     <parameters>
     </parameters>
@@ -428,9 +427,9 @@
     <clusterschemas>
     </clusterschemas>
     <created_user>-</created_user>
-    <created_date>2019/06/23 12:13:41.697</created_date>
+    <created_date>2019/06/23 20:24:23.703</created_date>
     <modified_user>-</modified_user>
-    <modified_date>2019/06/23 12:13:41.697</modified_date>
+    <modified_date>2019/06/23 20:24:23.703</modified_date>
     <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
@@ -493,14 +492,49 @@
   </connection>
   <order>
     <hop>
-      <from>CSV file input</from>
+      <from>Generate init date</from>
+      <to>Add hour_increment sequence</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Add hour_increment sequence</from>
+      <to>Sum increments</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Calculate am_pm</from>
+      <to>Calculate seasons</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Calculate part of hour</from>
+      <to>Calculate part of the year</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Calculate part of the year</from>
+      <to>Calculate am_pm</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Sum increments</from>
+      <to>Filter intermediate results</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Filter intermediate results</from>
+      <to>Calculate part of hour</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Calculate seasons</from>
       <to>Dimension lookup/update</to>
       <enabled>Y</enabled>
     </hop>
   </order>
   <step>
-    <name>CSV file input</name>
-    <type>CsvInput</type>
+    <name>Add hour_increment sequence</name>
+    <type>Sequence</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -509,65 +543,16 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>${Internal.Entry.Current.Directory}/../data-set/city_attributes.csv</filename>
-    <filename_field/>
-    <rownum_field/>
-    <include_filename>N</include_filename>
-    <separator>,</separator>
-    <enclosure>"</enclosure>
-    <header>Y</header>
-    <buffer_size>50000</buffer_size>
-    <lazy_conversion>N</lazy_conversion>
-    <add_filename_result>N</add_filename_result>
-    <parallel>N</parallel>
-    <newline_possible>N</newline_possible>
-    <encoding/>
-    <fields>
-      <field>
-        <name>City</name>
-        <type>String</type>
-        <format/>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>50</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Country</name>
-        <type>String</type>
-        <format/>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>50</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Latitude</name>
-        <type>Number</type>
-        <format>###.######</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>15</length>
-        <precision>6</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Longitude</name>
-        <type>Number</type>
-        <format>###.######</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>15</length>
-        <precision>6</precision>
-        <trim_type>none</trim_type>
-      </field>
-    </fields>
+    <valuename>hour_increment</valuename>
+    <use_database>N</use_database>
+    <connection>DataMart-LocalDatabase</connection>
+    <schema/>
+    <seqname>SEQ_</seqname>
+    <use_counter>Y</use_counter>
+    <counter_name/>
+    <start_at>0</start_at>
+    <increment_by>1</increment_by>
+    <max_value>999999999</max_value>
     <attributes/>
     <cluster_schema/>
     <remotesteps>
@@ -577,8 +562,258 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>128</xloc>
-      <yloc>176</yloc>
+      <xloc>304</xloc>
+      <yloc>144</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Calculate am_pm</name>
+    <type>Formula</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <formula>
+      <field_name>am_pm</field_name>
+      <formula_string>IF([hour]&gt;=12;"pm";"am")</formula_string>
+      <value_type>String</value_type>
+      <value_length>2</value_length>
+      <value_precision>-1</value_precision>
+      <replace_field/>
+    </formula>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>640</xloc>
+      <yloc>256</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Calculate part of hour</name>
+    <type>Calculator</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <failIfNoFile>Y</failIfNoFile>
+    <calculation>
+      <field_name>hour</field_name>
+      <calc_type>HOUR_OF_DAY</calc_type>
+      <field_a>datetime</field_a>
+      <field_b/>
+      <field_c/>
+      <value_type>Integer</value_type>
+      <value_length>2</value_length>
+      <value_precision>0</value_precision>
+      <remove>N</remove>
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
+    </calculation>
+    <calculation>
+      <field_name>minute</field_name>
+      <calc_type>MINUTE_OF_HOUR</calc_type>
+      <field_a>datetime</field_a>
+      <field_b/>
+      <field_c/>
+      <value_type>Integer</value_type>
+      <value_length>2</value_length>
+      <value_precision>0</value_precision>
+      <remove>N</remove>
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
+    </calculation>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>816</xloc>
+      <yloc>144</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Calculate part of the year</name>
+    <type>Calculator</type>
+    <description/>
+    <distribute>N</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <failIfNoFile>Y</failIfNoFile>
+    <calculation>
+      <field_name>year</field_name>
+      <calc_type>YEAR_OF_DATE</calc_type>
+      <field_a>datetime</field_a>
+      <field_b/>
+      <field_c/>
+      <value_type>Integer</value_type>
+      <value_length>4</value_length>
+      <value_precision>0</value_precision>
+      <remove>N</remove>
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
+    </calculation>
+    <calculation>
+      <field_name>month</field_name>
+      <calc_type>MONTH_OF_DATE</calc_type>
+      <field_a>datetime</field_a>
+      <field_b/>
+      <field_c/>
+      <value_type>Integer</value_type>
+      <value_length>-1</value_length>
+      <value_precision>-1</value_precision>
+      <remove>N</remove>
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
+    </calculation>
+    <calculation>
+      <field_name>day_of_year</field_name>
+      <calc_type>DAY_OF_YEAR</calc_type>
+      <field_a>datetime</field_a>
+      <field_b/>
+      <field_c/>
+      <value_type>Integer</value_type>
+      <value_length>-1</value_length>
+      <value_precision>-1</value_precision>
+      <remove>N</remove>
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
+    </calculation>
+    <calculation>
+      <field_name>day</field_name>
+      <calc_type>DAY_OF_MONTH</calc_type>
+      <field_a>datetime</field_a>
+      <field_b/>
+      <field_c/>
+      <value_type>Integer</value_type>
+      <value_length>2</value_length>
+      <value_precision>0</value_precision>
+      <remove>N</remove>
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
+    </calculation>
+    <calculation>
+      <field_name>year_week</field_name>
+      <calc_type>WEEK_OF_YEAR</calc_type>
+      <field_a>datetime</field_a>
+      <field_b/>
+      <field_c/>
+      <value_type>Integer</value_type>
+      <value_length>-1</value_length>
+      <value_precision>-1</value_precision>
+      <remove>N</remove>
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
+    </calculation>
+    <calculation>
+      <field_name>year_quarter</field_name>
+      <calc_type>QUARTER_OF_DATE</calc_type>
+      <field_a>datetime</field_a>
+      <field_b/>
+      <field_c/>
+      <value_type>Integer</value_type>
+      <value_length>-1</value_length>
+      <value_precision>-1</value_precision>
+      <remove>N</remove>
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
+    </calculation>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>816</xloc>
+      <yloc>256</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Calculate seasons</name>
+    <type>Formula</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <formula>
+      <field_name>astronomical_season</field_name>
+      <formula_string>IF(AND(80 &lt;= [day_of_year] ; [day_of_year] &lt; 172); "spring"; 
+IF(AND(172 &lt;= [day_of_year] ;[day_of_year] &lt; 264); "summer"; 
+IF(AND(264 &lt;= [day_of_year]; [day_of_year] &lt; 355); "fall"; "winter")))</formula_string>
+      <value_type>String</value_type>
+      <value_length>10</value_length>
+      <value_precision>-1</value_precision>
+      <replace_field/>
+    </formula>
+    <formula>
+      <field_name>meteorological_season</field_name>
+      <formula_string>IF(AND(60 &lt;= [day_of_year] ; [day_of_year] &lt; 152); "spring"; 
+IF(AND(152 &lt;= [day_of_year] ;[day_of_year] &lt; 244); "summer"; 
+IF(AND(244 &lt;= [day_of_year]; [day_of_year] &lt; 335); "fall"; "winter")))</formula_string>
+      <value_type>String</value_type>
+      <value_length>10</value_length>
+      <value_precision>-1</value_precision>
+      <replace_field/>
+    </formula>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>480</xloc>
+      <yloc>256</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -594,14 +829,14 @@
       <schema_name/>
     </partitioning>
     <schema/>
-    <table>city_dim</table>
+    <table>datetime_dim</table>
     <connection>DataMart-LocalDatabase</connection>
     <commit>100</commit>
     <update>Y</update>
     <fields>
       <key>
-        <name>City</name>
-        <lookup>name</lookup>
+        <name>datetime</name>
+        <lookup>datetime</lookup>
       </key>
       <date>
         <name/>
@@ -609,22 +844,62 @@
         <to>date_to</to>
       </date>
       <field>
-        <name>Country</name>
-        <lookup>country</lookup>
+        <name>hour</name>
+        <lookup>hour</lookup>
         <update>Insert</update>
       </field>
       <field>
-        <name>Latitude</name>
-        <lookup>latitude</lookup>
+        <name>minute</name>
+        <lookup>minute</lookup>
         <update>Insert</update>
       </field>
       <field>
-        <name>Longitude</name>
-        <lookup>longitude</lookup>
+        <name>year</name>
+        <lookup>year</lookup>
+        <update>Insert</update>
+      </field>
+      <field>
+        <name>month</name>
+        <lookup>month</lookup>
+        <update>Insert</update>
+      </field>
+      <field>
+        <name>day_of_year</name>
+        <lookup>day_of_year</lookup>
+        <update>Insert</update>
+      </field>
+      <field>
+        <name>day</name>
+        <lookup>day</lookup>
+        <update>Insert</update>
+      </field>
+      <field>
+        <name>year_week</name>
+        <lookup>year_week</lookup>
+        <update>Insert</update>
+      </field>
+      <field>
+        <name>year_quarter</name>
+        <lookup>year_quarter</lookup>
+        <update>Insert</update>
+      </field>
+      <field>
+        <name>am_pm</name>
+        <lookup>am_pm</lookup>
+        <update>Insert</update>
+      </field>
+      <field>
+        <name>astronomical_season</name>
+        <lookup>astronomical_season</lookup>
+        <update>Insert</update>
+      </field>
+      <field>
+        <name>meteorological_season</name>
+        <lookup>meteorological_season</lookup>
         <update>Insert</update>
       </field>
       <return>
-        <name>city_dim_id</name>
+        <name>datetime_dim_id</name>
         <rename/>
         <creation_method>tablemax</creation_method>
         <use_autoinc>N</use_autoinc>
@@ -634,7 +909,7 @@
     <sequence/>
     <min_year>1900</min_year>
     <max_year>2199</max_year>
-    <cache_size>-1</cache_size>
+    <cache_size>5000</cache_size>
     <preload_cache>N</preload_cache>
     <use_start_date_alternative>N</use_start_date_alternative>
     <start_date_alternative>none</start_date_alternative>
@@ -649,8 +924,124 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>288</xloc>
-      <yloc>176</yloc>
+      <xloc>304</xloc>
+      <yloc>256</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Filter intermediate results</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>datetime</name>
+      </field>
+      <select_unspecified>N</select_unspecified>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>640</xloc>
+      <yloc>144</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Generate init date</name>
+    <type>RowGenerator</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>init_date</name>
+        <type>Timestamp</type>
+        <format>yyyy-MM-dd HH:mm</format>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif>2012-10-01 00:00</nullif>
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+    </fields>
+    <limit>45312</limit>
+    <never_ending>N</never_ending>
+    <interval_in_ms>5000</interval_in_ms>
+    <row_time_field>now</row_time_field>
+    <last_time_field>FiveSecondsAgo</last_time_field>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>128</xloc>
+      <yloc>144</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Sum increments</name>
+    <type>Calculator</type>
+    <description/>
+    <distribute>N</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <failIfNoFile>Y</failIfNoFile>
+    <calculation>
+      <field_name>datetime</field_name>
+      <calc_type>ADD_HOURS</calc_type>
+      <field_a>init_date</field_a>
+      <field_b>hour_increment</field_b>
+      <field_c/>
+      <value_type>Timestamp</value_type>
+      <value_length>-1</value_length>
+      <value_precision>-1</value_precision>
+      <remove>N</remove>
+      <conversion_mask>yyyy-MM-dd HH:mm</conversion_mask>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
+    </calculation>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>480</xloc>
+      <yloc>144</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
