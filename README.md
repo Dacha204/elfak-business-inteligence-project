@@ -118,10 +118,10 @@ mappings:
 
 ## Kibana
 
-![TemperatureTrends][docs/results/kibana/dashbaord_tempTrends.png]
+![TemperatureTrends](docs/results/kibana/dashbaord_tempTrends.png)
 
-![TemperaturePerSeason][docs/results/kibana/dashboard_tempPerSeason.png]
+![TemperaturePerSeason](docs/results/kibana/dashboard_tempPerSeason.png)
 
-![TemperaturePerSeason2][docs/results/kibana/dashboard_tempPerSeason2.png]
+![TemperaturePerSeason2](docs/results/kibana/dashboard_tempPerSeason2.png)
 
-![Temperature][docs/results/kibana/dashboard_temps.png]
+![Temperature](docs/results/kibana/dashboard_temps.png)
