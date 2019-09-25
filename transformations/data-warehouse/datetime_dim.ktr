@@ -979,13 +979,13 @@ IF(AND(244 &lt;= [day_of_year]; [day_of_year] &lt; 335); "fall"; "winter")))</fo
         <currency/>
         <decimal/>
         <group/>
-        <nullif>2012-10-01 00:00</nullif>
+        <nullif>2013-01-01 00:00</nullif>
         <length>-1</length>
         <precision>-1</precision>
         <set_empty_string>N</set_empty_string>
       </field>
     </fields>
-    <limit>45312</limit>
+    <limit>35100</limit>
     <never_ending>N</never_ending>
     <interval_in_ms>5000</interval_in_ms>
     <row_time_field>now</row_time_field>

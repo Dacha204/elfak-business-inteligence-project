@@ -863,51 +863,7 @@
         <trim_type>none</trim_type>
       </field>
       <field>
-        <name>Portland</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>San Francisco</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Seattle</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
         <name>Los Angeles</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>San Diego</name>
         <type>Number</type>
         <format>#.##</format>
         <currency>$</currency>
@@ -929,51 +885,7 @@
         <trim_type>none</trim_type>
       </field>
       <field>
-        <name>Phoenix</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Albuquerque</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
         <name>Denver</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>San Antonio</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Dallas</name>
         <type>Number</type>
         <format>#.##</format>
         <currency>$</currency>
@@ -995,106 +907,7 @@
         <trim_type>none</trim_type>
       </field>
       <field>
-        <name>Kansas City</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
         <name>Minneapolis</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Saint Louis</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Chicago</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Nashville</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Indianapolis</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Atlanta</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Detroit</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Jacksonville</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Charlotte</name>
         <type>Number</type>
         <format>#.##</format>
         <currency>$</currency>
@@ -1116,61 +929,6 @@
         <trim_type>none</trim_type>
       </field>
       <field>
-        <name>Pittsburgh</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Toronto</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Philadelphia</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>New York</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Montreal</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
         <name>Boston</name>
         <type>Number</type>
         <format>#.##</format>
@@ -1179,72 +937,6 @@
         <group>,</group>
         <length>13</length>
         <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Beersheba</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Tel Aviv District</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Eilat</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Haifa</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>5</length>
-        <precision>1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Nahariyya</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>5</length>
-        <precision>1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Jerusalem</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>5</length>
-        <precision>1</precision>
         <trim_type>none</trim_type>
       </field>
     </fields>
@@ -1281,28 +973,8 @@
         <norm>huminity</norm>
       </field>
       <field>
-        <name>Portland</name>
-        <value>Portland</value>
-        <norm>huminity</norm>
-      </field>
-      <field>
-        <name>San Francisco</name>
-        <value>San Francisco</value>
-        <norm>huminity</norm>
-      </field>
-      <field>
-        <name>Seattle</name>
-        <value>Seattle</value>
-        <norm>huminity</norm>
-      </field>
-      <field>
         <name>Los Angeles</name>
         <value>Los Angeles</value>
-        <norm>huminity</norm>
-      </field>
-      <field>
-        <name>San Diego</name>
-        <value>San Diego</value>
         <norm>huminity</norm>
       </field>
       <field>
@@ -1311,28 +983,8 @@
         <norm>huminity</norm>
       </field>
       <field>
-        <name>Phoenix</name>
-        <value>Phoenix</value>
-        <norm>huminity</norm>
-      </field>
-      <field>
-        <name>Albuquerque</name>
-        <value>Albuquerque</value>
-        <norm>huminity</norm>
-      </field>
-      <field>
         <name>Denver</name>
         <value>Denver</value>
-        <norm>huminity</norm>
-      </field>
-      <field>
-        <name>San Antonio</name>
-        <value>San Antonio</value>
-        <norm>huminity</norm>
-      </field>
-      <field>
-        <name>Dallas</name>
-        <value>Dallas</value>
         <norm>huminity</norm>
       </field>
       <field>
@@ -1341,53 +993,8 @@
         <norm>huminity</norm>
       </field>
       <field>
-        <name>Kansas City</name>
-        <value>Kansas City</value>
-        <norm>huminity</norm>
-      </field>
-      <field>
         <name>Minneapolis</name>
         <value>Minneapolis</value>
-        <norm>huminity</norm>
-      </field>
-      <field>
-        <name>Saint Louis</name>
-        <value>Saint Louis</value>
-        <norm>huminity</norm>
-      </field>
-      <field>
-        <name>Chicago</name>
-        <value>Chicago</value>
-        <norm>huminity</norm>
-      </field>
-      <field>
-        <name>Nashville</name>
-        <value>Nashville</value>
-        <norm>huminity</norm>
-      </field>
-      <field>
-        <name>Indianapolis</name>
-        <value>Indianapolis</value>
-        <norm>huminity</norm>
-      </field>
-      <field>
-        <name>Atlanta</name>
-        <value>Atlanta</value>
-        <norm>huminity</norm>
-      </field>
-      <field>
-        <name>Detroit</name>
-        <value>Detroit</value>
-        <norm>huminity</norm>
-      </field>
-      <field>
-        <name>Jacksonville</name>
-        <value>Jacksonville</value>
-        <norm>huminity</norm>
-      </field>
-      <field>
-        <name>Charlotte</name>
-        <value>Charlotte</value>
         <norm>huminity</norm>
       </field>
       <field>
@@ -1396,63 +1003,8 @@
         <norm>huminity</norm>
       </field>
       <field>
-        <name>Pittsburgh</name>
-        <value>Pittsburgh</value>
-        <norm>huminity</norm>
-      </field>
-      <field>
-        <name>Toronto</name>
-        <value>Toronto</value>
-        <norm>huminity</norm>
-      </field>
-      <field>
-        <name>Philadelphia</name>
-        <value>Philadelphia</value>
-        <norm>huminity</norm>
-      </field>
-      <field>
-        <name>New York</name>
-        <value>New York</value>
-        <norm>huminity</norm>
-      </field>
-      <field>
-        <name>Montreal</name>
-        <value>Montreal</value>
-        <norm>huminity</norm>
-      </field>
-      <field>
         <name>Boston</name>
         <value>Boston</value>
-        <norm>huminity</norm>
-      </field>
-      <field>
-        <name>Beersheba</name>
-        <value>Beersheba</value>
-        <norm>huminity</norm>
-      </field>
-      <field>
-        <name>Tel Aviv District</name>
-        <value>Tel Aviv District</value>
-        <norm>huminity</norm>
-      </field>
-      <field>
-        <name>Eilat</name>
-        <value>Eilat</value>
-        <norm>huminity</norm>
-      </field>
-      <field>
-        <name>Haifa</name>
-        <value>Haifa</value>
-        <norm>huminity</norm>
-      </field>
-      <field>
-        <name>Nahariyya</name>
-        <value>Nahariyya</value>
-        <norm>huminity</norm>
-      </field>
-      <field>
-        <name>Jerusalem</name>
-        <value>Jerusalem</value>
         <norm>huminity</norm>
       </field>
     </fields>
@@ -1559,51 +1111,7 @@
         <trim_type>none</trim_type>
       </field>
       <field>
-        <name>Portland</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>San Francisco</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Seattle</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
         <name>Los Angeles</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>San Diego</name>
         <type>Number</type>
         <format>#.##</format>
         <currency>$</currency>
@@ -1625,51 +1133,7 @@
         <trim_type>none</trim_type>
       </field>
       <field>
-        <name>Phoenix</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Albuquerque</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
         <name>Denver</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>San Antonio</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Dallas</name>
         <type>Number</type>
         <format>#.##</format>
         <currency>$</currency>
@@ -1691,106 +1155,7 @@
         <trim_type>none</trim_type>
       </field>
       <field>
-        <name>Kansas City</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
         <name>Minneapolis</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Saint Louis</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Chicago</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Nashville</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Indianapolis</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Atlanta</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Detroit</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Jacksonville</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Charlotte</name>
         <type>Number</type>
         <format>#.##</format>
         <currency>$</currency>
@@ -1812,61 +1177,6 @@
         <trim_type>none</trim_type>
       </field>
       <field>
-        <name>Pittsburgh</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Toronto</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Philadelphia</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>New York</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Montreal</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
         <name>Boston</name>
         <type>Number</type>
         <format>#.##</format>
@@ -1875,72 +1185,6 @@
         <group>,</group>
         <length>13</length>
         <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Beersheba</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Tel Aviv District</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Eilat</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Haifa</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>5</length>
-        <precision>1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Nahariyya</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>5</length>
-        <precision>1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Jerusalem</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>5</length>
-        <precision>1</precision>
         <trim_type>none</trim_type>
       </field>
     </fields>
@@ -1977,28 +1221,8 @@
         <norm>pressure</norm>
       </field>
       <field>
-        <name>Portland</name>
-        <value>Portland</value>
-        <norm>pressure</norm>
-      </field>
-      <field>
-        <name>San Francisco</name>
-        <value>San Francisco</value>
-        <norm>pressure</norm>
-      </field>
-      <field>
-        <name>Seattle</name>
-        <value>Seattle</value>
-        <norm>pressure</norm>
-      </field>
-      <field>
         <name>Los Angeles</name>
         <value>Los Angeles</value>
-        <norm>pressure</norm>
-      </field>
-      <field>
-        <name>San Diego</name>
-        <value>San Diego</value>
         <norm>pressure</norm>
       </field>
       <field>
@@ -2007,28 +1231,8 @@
         <norm>pressure</norm>
       </field>
       <field>
-        <name>Phoenix</name>
-        <value>Phoenix</value>
-        <norm>pressure</norm>
-      </field>
-      <field>
-        <name>Albuquerque</name>
-        <value>Albuquerque</value>
-        <norm>pressure</norm>
-      </field>
-      <field>
         <name>Denver</name>
         <value>Denver</value>
-        <norm>pressure</norm>
-      </field>
-      <field>
-        <name>San Antonio</name>
-        <value>San Antonio</value>
-        <norm>pressure</norm>
-      </field>
-      <field>
-        <name>Dallas</name>
-        <value>Dallas</value>
         <norm>pressure</norm>
       </field>
       <field>
@@ -2037,53 +1241,8 @@
         <norm>pressure</norm>
       </field>
       <field>
-        <name>Kansas City</name>
-        <value>Kansas City</value>
-        <norm>pressure</norm>
-      </field>
-      <field>
         <name>Minneapolis</name>
         <value>Minneapolis</value>
-        <norm>pressure</norm>
-      </field>
-      <field>
-        <name>Saint Louis</name>
-        <value>Saint Louis</value>
-        <norm>pressure</norm>
-      </field>
-      <field>
-        <name>Chicago</name>
-        <value>Chicago</value>
-        <norm>pressure</norm>
-      </field>
-      <field>
-        <name>Nashville</name>
-        <value>Nashville</value>
-        <norm>pressure</norm>
-      </field>
-      <field>
-        <name>Indianapolis</name>
-        <value>Indianapolis</value>
-        <norm>pressure</norm>
-      </field>
-      <field>
-        <name>Atlanta</name>
-        <value>Atlanta</value>
-        <norm>pressure</norm>
-      </field>
-      <field>
-        <name>Detroit</name>
-        <value>Detroit</value>
-        <norm>pressure</norm>
-      </field>
-      <field>
-        <name>Jacksonville</name>
-        <value>Jacksonville</value>
-        <norm>pressure</norm>
-      </field>
-      <field>
-        <name>Charlotte</name>
-        <value>Charlotte</value>
         <norm>pressure</norm>
       </field>
       <field>
@@ -2092,63 +1251,8 @@
         <norm>pressure</norm>
       </field>
       <field>
-        <name>Pittsburgh</name>
-        <value>Pittsburgh</value>
-        <norm>pressure</norm>
-      </field>
-      <field>
-        <name>Toronto</name>
-        <value>Toronto</value>
-        <norm>pressure</norm>
-      </field>
-      <field>
-        <name>Philadelphia</name>
-        <value>Philadelphia</value>
-        <norm>pressure</norm>
-      </field>
-      <field>
-        <name>New York</name>
-        <value>New York</value>
-        <norm>pressure</norm>
-      </field>
-      <field>
-        <name>Montreal</name>
-        <value>Montreal</value>
-        <norm>pressure</norm>
-      </field>
-      <field>
         <name>Boston</name>
         <value>Boston</value>
-        <norm>pressure</norm>
-      </field>
-      <field>
-        <name>Beersheba</name>
-        <value>Beersheba</value>
-        <norm>pressure</norm>
-      </field>
-      <field>
-        <name>Tel Aviv District</name>
-        <value>Tel Aviv District</value>
-        <norm>pressure</norm>
-      </field>
-      <field>
-        <name>Eilat</name>
-        <value>Eilat</value>
-        <norm>pressure</norm>
-      </field>
-      <field>
-        <name>Haifa</name>
-        <value>Haifa</value>
-        <norm>pressure</norm>
-      </field>
-      <field>
-        <name>Nahariyya</name>
-        <value>Nahariyya</value>
-        <norm>pressure</norm>
-      </field>
-      <field>
-        <name>Jerusalem</name>
-        <value>Jerusalem</value>
         <norm>pressure</norm>
       </field>
     </fields>
@@ -2302,11 +1406,9 @@
     <fields>
       <field>
         <name>datetime</name>
-        <rename/>
       </field>
       <field>
         <name>city</name>
-        <rename/>
       </field>
       <field>
         <name>temperature</name>
@@ -2314,11 +1416,9 @@
       </field>
       <field>
         <name>temperature_celsius</name>
-        <rename/>
       </field>
       <field>
         <name>temperature_fahrenheit</name>
-        <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
     </fields>
@@ -2743,28 +1843,8 @@
         <norm>temperature</norm>
       </field>
       <field>
-        <name>Portland</name>
-        <value>Portland</value>
-        <norm>temperature</norm>
-      </field>
-      <field>
-        <name>San Francisco</name>
-        <value>San Francisco</value>
-        <norm>temperature</norm>
-      </field>
-      <field>
-        <name>Seattle</name>
-        <value>Seattle</value>
-        <norm>temperature</norm>
-      </field>
-      <field>
         <name>Los Angeles</name>
         <value>Los Angeles</value>
-        <norm>temperature</norm>
-      </field>
-      <field>
-        <name>San Diego</name>
-        <value>San Diego</value>
         <norm>temperature</norm>
       </field>
       <field>
@@ -2773,28 +1853,8 @@
         <norm>temperature</norm>
       </field>
       <field>
-        <name>Phoenix</name>
-        <value>Phoenix</value>
-        <norm>temperature</norm>
-      </field>
-      <field>
-        <name>Albuquerque</name>
-        <value>Albuquerque</value>
-        <norm>temperature</norm>
-      </field>
-      <field>
         <name>Denver</name>
         <value>Denver</value>
-        <norm>temperature</norm>
-      </field>
-      <field>
-        <name>San Antonio</name>
-        <value>San Antonio</value>
-        <norm>temperature</norm>
-      </field>
-      <field>
-        <name>Dallas</name>
-        <value>Dallas</value>
         <norm>temperature</norm>
       </field>
       <field>
@@ -2803,53 +1863,8 @@
         <norm>temperature</norm>
       </field>
       <field>
-        <name>Kansas City</name>
-        <value>Kansas City</value>
-        <norm>temperature</norm>
-      </field>
-      <field>
         <name>Minneapolis</name>
         <value>Minneapolis</value>
-        <norm>temperature</norm>
-      </field>
-      <field>
-        <name>Saint Louis</name>
-        <value>Saint Louis</value>
-        <norm>temperature</norm>
-      </field>
-      <field>
-        <name>Chicago</name>
-        <value>Chicago</value>
-        <norm>temperature</norm>
-      </field>
-      <field>
-        <name>Nashville</name>
-        <value>Nashville</value>
-        <norm>temperature</norm>
-      </field>
-      <field>
-        <name>Indianapolis</name>
-        <value>Indianapolis</value>
-        <norm>temperature</norm>
-      </field>
-      <field>
-        <name>Atlanta</name>
-        <value>Atlanta</value>
-        <norm>temperature</norm>
-      </field>
-      <field>
-        <name>Detroit</name>
-        <value>Detroit</value>
-        <norm>temperature</norm>
-      </field>
-      <field>
-        <name>Jacksonville</name>
-        <value>Jacksonville</value>
-        <norm>temperature</norm>
-      </field>
-      <field>
-        <name>Charlotte</name>
-        <value>Charlotte</value>
         <norm>temperature</norm>
       </field>
       <field>
@@ -2858,63 +1873,8 @@
         <norm>temperature</norm>
       </field>
       <field>
-        <name>Pittsburgh</name>
-        <value>Pittsburgh</value>
-        <norm>temperature</norm>
-      </field>
-      <field>
-        <name>Toronto</name>
-        <value>Toronto</value>
-        <norm>temperature</norm>
-      </field>
-      <field>
-        <name>Philadelphia</name>
-        <value>Philadelphia</value>
-        <norm>temperature</norm>
-      </field>
-      <field>
-        <name>New York</name>
-        <value>New York</value>
-        <norm>temperature</norm>
-      </field>
-      <field>
-        <name>Montreal</name>
-        <value>Montreal</value>
-        <norm>temperature</norm>
-      </field>
-      <field>
         <name>Boston</name>
         <value>Boston</value>
-        <norm>temperature</norm>
-      </field>
-      <field>
-        <name>Beersheba</name>
-        <value>Beersheba</value>
-        <norm>temperature</norm>
-      </field>
-      <field>
-        <name>Tel Aviv District</name>
-        <value>Tel Aviv District</value>
-        <norm>temperature</norm>
-      </field>
-      <field>
-        <name>Eilat</name>
-        <value>Eilat</value>
-        <norm>temperature</norm>
-      </field>
-      <field>
-        <name>Haifa</name>
-        <value>Haifa</value>
-        <norm>temperature</norm>
-      </field>
-      <field>
-        <name>Nahariyya</name>
-        <value>Nahariyya</value>
-        <norm>temperature</norm>
-      </field>
-      <field>
-        <name>Jerusalem</name>
-        <value>Jerusalem</value>
         <norm>temperature</norm>
       </field>
     </fields>
@@ -2980,51 +1940,7 @@
         <trim_type>none</trim_type>
       </field>
       <field>
-        <name>Portland</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>San Francisco</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Seattle</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
         <name>Los Angeles</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>San Diego</name>
         <type>Number</type>
         <format>#.##</format>
         <currency>$</currency>
@@ -3046,51 +1962,7 @@
         <trim_type>none</trim_type>
       </field>
       <field>
-        <name>Phoenix</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Albuquerque</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
         <name>Denver</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>San Antonio</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Dallas</name>
         <type>Number</type>
         <format>#.##</format>
         <currency>$</currency>
@@ -3112,106 +1984,7 @@
         <trim_type>none</trim_type>
       </field>
       <field>
-        <name>Kansas City</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
         <name>Minneapolis</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Saint Louis</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Chicago</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Nashville</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Indianapolis</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Atlanta</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Detroit</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Jacksonville</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Charlotte</name>
         <type>Number</type>
         <format>#.##</format>
         <currency>$</currency>
@@ -3233,61 +2006,6 @@
         <trim_type>none</trim_type>
       </field>
       <field>
-        <name>Pittsburgh</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Toronto</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Philadelphia</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>New York</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Montreal</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
         <name>Boston</name>
         <type>Number</type>
         <format>#.##</format>
@@ -3296,72 +2014,6 @@
         <group>,</group>
         <length>13</length>
         <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Beersheba</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Tel Aviv District</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Eilat</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Haifa</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>5</length>
-        <precision>1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Nahariyya</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>5</length>
-        <precision>1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Jerusalem</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>5</length>
-        <precision>1</precision>
         <trim_type>none</trim_type>
       </field>
     </fields>
@@ -3427,51 +2079,7 @@
         <trim_type>none</trim_type>
       </field>
       <field>
-        <name>Portland</name>
-        <type>String</type>
-        <format/>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>255</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>San Francisco</name>
-        <type>String</type>
-        <format/>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>255</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Seattle</name>
-        <type>String</type>
-        <format/>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>255</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
         <name>Los Angeles</name>
-        <type>String</type>
-        <format/>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>255</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>San Diego</name>
         <type>String</type>
         <format/>
         <currency>$</currency>
@@ -3493,51 +2101,7 @@
         <trim_type>none</trim_type>
       </field>
       <field>
-        <name>Phoenix</name>
-        <type>String</type>
-        <format/>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>255</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Albuquerque</name>
-        <type>String</type>
-        <format/>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>255</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
         <name>Denver</name>
-        <type>String</type>
-        <format/>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>255</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>San Antonio</name>
-        <type>String</type>
-        <format/>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>255</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Dallas</name>
         <type>String</type>
         <format/>
         <currency>$</currency>
@@ -3559,106 +2123,7 @@
         <trim_type>none</trim_type>
       </field>
       <field>
-        <name>Kansas City</name>
-        <type>String</type>
-        <format/>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>255</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
         <name>Minneapolis</name>
-        <type>String</type>
-        <format/>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>255</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Saint Louis</name>
-        <type>String</type>
-        <format/>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>255</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Chicago</name>
-        <type>String</type>
-        <format/>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>255</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Nashville</name>
-        <type>String</type>
-        <format/>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>255</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Indianapolis</name>
-        <type>String</type>
-        <format/>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>255</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Atlanta</name>
-        <type>String</type>
-        <format/>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>255</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Detroit</name>
-        <type>String</type>
-        <format/>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>255</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Jacksonville</name>
-        <type>String</type>
-        <format/>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>255</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Charlotte</name>
         <type>String</type>
         <format/>
         <currency>$</currency>
@@ -3680,128 +2145,7 @@
         <trim_type>none</trim_type>
       </field>
       <field>
-        <name>Pittsburgh</name>
-        <type>String</type>
-        <format/>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>255</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Toronto</name>
-        <type>String</type>
-        <format/>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>255</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Philadelphia</name>
-        <type>String</type>
-        <format/>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>255</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>New York</name>
-        <type>String</type>
-        <format/>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>255</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Montreal</name>
-        <type>String</type>
-        <format/>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>255</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
         <name>Boston</name>
-        <type>String</type>
-        <format/>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>255</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Beersheba</name>
-        <type>String</type>
-        <format/>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>255</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Tel Aviv District</name>
-        <type>String</type>
-        <format/>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>255</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Eilat</name>
-        <type>String</type>
-        <format/>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>255</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Haifa</name>
-        <type>String</type>
-        <format/>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>255</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Nahariyya</name>
-        <type>String</type>
-        <format/>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>255</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Jerusalem</name>
         <type>String</type>
         <format/>
         <currency>$</currency>
@@ -3845,28 +2189,8 @@
         <norm>weather_description</norm>
       </field>
       <field>
-        <name>Portland</name>
-        <value>Portland</value>
-        <norm>weather_description</norm>
-      </field>
-      <field>
-        <name>San Francisco</name>
-        <value>San Francisco</value>
-        <norm>weather_description</norm>
-      </field>
-      <field>
-        <name>Seattle</name>
-        <value>Seattle</value>
-        <norm>weather_description</norm>
-      </field>
-      <field>
         <name>Los Angeles</name>
         <value>Los Angeles</value>
-        <norm>weather_description</norm>
-      </field>
-      <field>
-        <name>San Diego</name>
-        <value>San Diego</value>
         <norm>weather_description</norm>
       </field>
       <field>
@@ -3875,28 +2199,8 @@
         <norm>weather_description</norm>
       </field>
       <field>
-        <name>Phoenix</name>
-        <value>Phoenix</value>
-        <norm>weather_description</norm>
-      </field>
-      <field>
-        <name>Albuquerque</name>
-        <value>Albuquerque</value>
-        <norm>weather_description</norm>
-      </field>
-      <field>
         <name>Denver</name>
         <value>Denver</value>
-        <norm>weather_description</norm>
-      </field>
-      <field>
-        <name>San Antonio</name>
-        <value>San Antonio</value>
-        <norm>weather_description</norm>
-      </field>
-      <field>
-        <name>Dallas</name>
-        <value>Dallas</value>
         <norm>weather_description</norm>
       </field>
       <field>
@@ -3905,53 +2209,8 @@
         <norm>weather_description</norm>
       </field>
       <field>
-        <name>Kansas City</name>
-        <value>Kansas City</value>
-        <norm>weather_description</norm>
-      </field>
-      <field>
         <name>Minneapolis</name>
         <value>Minneapolis</value>
-        <norm>weather_description</norm>
-      </field>
-      <field>
-        <name>Saint Louis</name>
-        <value>Saint Louis</value>
-        <norm>weather_description</norm>
-      </field>
-      <field>
-        <name>Chicago</name>
-        <value>Chicago</value>
-        <norm>weather_description</norm>
-      </field>
-      <field>
-        <name>Nashville</name>
-        <value>Nashville</value>
-        <norm>weather_description</norm>
-      </field>
-      <field>
-        <name>Indianapolis</name>
-        <value>Indianapolis</value>
-        <norm>weather_description</norm>
-      </field>
-      <field>
-        <name>Atlanta</name>
-        <value>Atlanta</value>
-        <norm>weather_description</norm>
-      </field>
-      <field>
-        <name>Detroit</name>
-        <value>Detroit</value>
-        <norm>weather_description</norm>
-      </field>
-      <field>
-        <name>Jacksonville</name>
-        <value>Jacksonville</value>
-        <norm>weather_description</norm>
-      </field>
-      <field>
-        <name>Charlotte</name>
-        <value>Charlotte</value>
         <norm>weather_description</norm>
       </field>
       <field>
@@ -3960,63 +2219,8 @@
         <norm>weather_description</norm>
       </field>
       <field>
-        <name>Pittsburgh</name>
-        <value>Pittsburgh</value>
-        <norm>weather_description</norm>
-      </field>
-      <field>
-        <name>Toronto</name>
-        <value>Toronto</value>
-        <norm>weather_description</norm>
-      </field>
-      <field>
-        <name>Philadelphia</name>
-        <value>Philadelphia</value>
-        <norm>weather_description</norm>
-      </field>
-      <field>
-        <name>New York</name>
-        <value>New York</value>
-        <norm>weather_description</norm>
-      </field>
-      <field>
-        <name>Montreal</name>
-        <value>Montreal</value>
-        <norm>weather_description</norm>
-      </field>
-      <field>
         <name>Boston</name>
         <value>Boston</value>
-        <norm>weather_description</norm>
-      </field>
-      <field>
-        <name>Beersheba</name>
-        <value>Beersheba</value>
-        <norm>weather_description</norm>
-      </field>
-      <field>
-        <name>Tel Aviv District</name>
-        <value>Tel Aviv District</value>
-        <norm>weather_description</norm>
-      </field>
-      <field>
-        <name>Eilat</name>
-        <value>Eilat</value>
-        <norm>weather_description</norm>
-      </field>
-      <field>
-        <name>Haifa</name>
-        <value>Haifa</value>
-        <norm>weather_description</norm>
-      </field>
-      <field>
-        <name>Nahariyya</name>
-        <value>Nahariyya</value>
-        <norm>weather_description</norm>
-      </field>
-      <field>
-        <name>Jerusalem</name>
-        <value>Jerusalem</value>
         <norm>weather_description</norm>
       </field>
     </fields>
@@ -4139,51 +2343,7 @@
         <trim_type>none</trim_type>
       </field>
       <field>
-        <name>Portland</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>San Francisco</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Seattle</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
         <name>Los Angeles</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>San Diego</name>
         <type>Number</type>
         <format>#.##</format>
         <currency>$</currency>
@@ -4205,51 +2365,7 @@
         <trim_type>none</trim_type>
       </field>
       <field>
-        <name>Phoenix</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Albuquerque</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
         <name>Denver</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>San Antonio</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Dallas</name>
         <type>Number</type>
         <format>#.##</format>
         <currency>$</currency>
@@ -4271,106 +2387,7 @@
         <trim_type>none</trim_type>
       </field>
       <field>
-        <name>Kansas City</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
         <name>Minneapolis</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Saint Louis</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Chicago</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Nashville</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Indianapolis</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Atlanta</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Detroit</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Jacksonville</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Charlotte</name>
         <type>Number</type>
         <format>#.##</format>
         <currency>$</currency>
@@ -4392,61 +2409,6 @@
         <trim_type>none</trim_type>
       </field>
       <field>
-        <name>Pittsburgh</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Toronto</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Philadelphia</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>New York</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Montreal</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
         <name>Boston</name>
         <type>Number</type>
         <format>#.##</format>
@@ -4455,72 +2417,6 @@
         <group>,</group>
         <length>13</length>
         <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Beersheba</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Tel Aviv District</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Eilat</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Haifa</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>5</length>
-        <precision>1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Nahariyya</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>5</length>
-        <precision>1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Jerusalem</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>5</length>
-        <precision>1</precision>
         <trim_type>none</trim_type>
       </field>
     </fields>
@@ -4557,28 +2453,8 @@
         <norm>wind_direction</norm>
       </field>
       <field>
-        <name>Portland</name>
-        <value>Portland</value>
-        <norm>wind_direction</norm>
-      </field>
-      <field>
-        <name>San Francisco</name>
-        <value>San Francisco</value>
-        <norm>wind_direction</norm>
-      </field>
-      <field>
-        <name>Seattle</name>
-        <value>Seattle</value>
-        <norm>wind_direction</norm>
-      </field>
-      <field>
         <name>Los Angeles</name>
         <value>Los Angeles</value>
-        <norm>wind_direction</norm>
-      </field>
-      <field>
-        <name>San Diego</name>
-        <value>San Diego</value>
         <norm>wind_direction</norm>
       </field>
       <field>
@@ -4587,28 +2463,8 @@
         <norm>wind_direction</norm>
       </field>
       <field>
-        <name>Phoenix</name>
-        <value>Phoenix</value>
-        <norm>wind_direction</norm>
-      </field>
-      <field>
-        <name>Albuquerque</name>
-        <value>Albuquerque</value>
-        <norm>wind_direction</norm>
-      </field>
-      <field>
         <name>Denver</name>
         <value>Denver</value>
-        <norm>wind_direction</norm>
-      </field>
-      <field>
-        <name>San Antonio</name>
-        <value>San Antonio</value>
-        <norm>wind_direction</norm>
-      </field>
-      <field>
-        <name>Dallas</name>
-        <value>Dallas</value>
         <norm>wind_direction</norm>
       </field>
       <field>
@@ -4617,53 +2473,8 @@
         <norm>wind_direction</norm>
       </field>
       <field>
-        <name>Kansas City</name>
-        <value>Kansas City</value>
-        <norm>wind_direction</norm>
-      </field>
-      <field>
         <name>Minneapolis</name>
         <value>Minneapolis</value>
-        <norm>wind_direction</norm>
-      </field>
-      <field>
-        <name>Saint Louis</name>
-        <value>Saint Louis</value>
-        <norm>wind_direction</norm>
-      </field>
-      <field>
-        <name>Chicago</name>
-        <value>Chicago</value>
-        <norm>wind_direction</norm>
-      </field>
-      <field>
-        <name>Nashville</name>
-        <value>Nashville</value>
-        <norm>wind_direction</norm>
-      </field>
-      <field>
-        <name>Indianapolis</name>
-        <value>Indianapolis</value>
-        <norm>wind_direction</norm>
-      </field>
-      <field>
-        <name>Atlanta</name>
-        <value>Atlanta</value>
-        <norm>wind_direction</norm>
-      </field>
-      <field>
-        <name>Detroit</name>
-        <value>Detroit</value>
-        <norm>wind_direction</norm>
-      </field>
-      <field>
-        <name>Jacksonville</name>
-        <value>Jacksonville</value>
-        <norm>wind_direction</norm>
-      </field>
-      <field>
-        <name>Charlotte</name>
-        <value>Charlotte</value>
         <norm>wind_direction</norm>
       </field>
       <field>
@@ -4672,63 +2483,8 @@
         <norm>wind_direction</norm>
       </field>
       <field>
-        <name>Pittsburgh</name>
-        <value>Pittsburgh</value>
-        <norm>wind_direction</norm>
-      </field>
-      <field>
-        <name>Toronto</name>
-        <value>Toronto</value>
-        <norm>wind_direction</norm>
-      </field>
-      <field>
-        <name>Philadelphia</name>
-        <value>Philadelphia</value>
-        <norm>wind_direction</norm>
-      </field>
-      <field>
-        <name>New York</name>
-        <value>New York</value>
-        <norm>wind_direction</norm>
-      </field>
-      <field>
-        <name>Montreal</name>
-        <value>Montreal</value>
-        <norm>wind_direction</norm>
-      </field>
-      <field>
         <name>Boston</name>
         <value>Boston</value>
-        <norm>wind_direction</norm>
-      </field>
-      <field>
-        <name>Beersheba</name>
-        <value>Beersheba</value>
-        <norm>wind_direction</norm>
-      </field>
-      <field>
-        <name>Tel Aviv District</name>
-        <value>Tel Aviv District</value>
-        <norm>wind_direction</norm>
-      </field>
-      <field>
-        <name>Eilat</name>
-        <value>Eilat</value>
-        <norm>wind_direction</norm>
-      </field>
-      <field>
-        <name>Haifa</name>
-        <value>Haifa</value>
-        <norm>wind_direction</norm>
-      </field>
-      <field>
-        <name>Nahariyya</name>
-        <value>Nahariyya</value>
-        <norm>wind_direction</norm>
-      </field>
-      <field>
-        <name>Jerusalem</name>
-        <value>Jerusalem</value>
         <norm>wind_direction</norm>
       </field>
     </fields>
@@ -4794,51 +2550,7 @@
         <trim_type>none</trim_type>
       </field>
       <field>
-        <name>Portland</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>San Francisco</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Seattle</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
         <name>Los Angeles</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>San Diego</name>
         <type>Number</type>
         <format>#.##</format>
         <currency>$</currency>
@@ -4860,51 +2572,7 @@
         <trim_type>none</trim_type>
       </field>
       <field>
-        <name>Phoenix</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Albuquerque</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
         <name>Denver</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>San Antonio</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Dallas</name>
         <type>Number</type>
         <format>#.##</format>
         <currency>$</currency>
@@ -4926,106 +2594,7 @@
         <trim_type>none</trim_type>
       </field>
       <field>
-        <name>Kansas City</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
         <name>Minneapolis</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Saint Louis</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Chicago</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Nashville</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Indianapolis</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Atlanta</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Detroit</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Jacksonville</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Charlotte</name>
         <type>Number</type>
         <format>#.##</format>
         <currency>$</currency>
@@ -5047,61 +2616,6 @@
         <trim_type>none</trim_type>
       </field>
       <field>
-        <name>Pittsburgh</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Toronto</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Philadelphia</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>New York</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Montreal</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
         <name>Boston</name>
         <type>Number</type>
         <format>#.##</format>
@@ -5110,72 +2624,6 @@
         <group>,</group>
         <length>13</length>
         <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Beersheba</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Tel Aviv District</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Eilat</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>13</length>
-        <precision>9</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Haifa</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>5</length>
-        <precision>1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Nahariyya</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>5</length>
-        <precision>1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Jerusalem</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>5</length>
-        <precision>1</precision>
         <trim_type>none</trim_type>
       </field>
     </fields>
@@ -5212,28 +2660,8 @@
         <norm>wind_speed</norm>
       </field>
       <field>
-        <name>Portland</name>
-        <value>Portland</value>
-        <norm>wind_speed</norm>
-      </field>
-      <field>
-        <name>San Francisco</name>
-        <value>San Francisco</value>
-        <norm>wind_speed</norm>
-      </field>
-      <field>
-        <name>Seattle</name>
-        <value>Seattle</value>
-        <norm>wind_speed</norm>
-      </field>
-      <field>
         <name>Los Angeles</name>
         <value>Los Angeles</value>
-        <norm>wind_speed</norm>
-      </field>
-      <field>
-        <name>San Diego</name>
-        <value>San Diego</value>
         <norm>wind_speed</norm>
       </field>
       <field>
@@ -5242,28 +2670,8 @@
         <norm>wind_speed</norm>
       </field>
       <field>
-        <name>Phoenix</name>
-        <value>Phoenix</value>
-        <norm>wind_speed</norm>
-      </field>
-      <field>
-        <name>Albuquerque</name>
-        <value>Albuquerque</value>
-        <norm>wind_speed</norm>
-      </field>
-      <field>
         <name>Denver</name>
         <value>Denver</value>
-        <norm>wind_speed</norm>
-      </field>
-      <field>
-        <name>San Antonio</name>
-        <value>San Antonio</value>
-        <norm>wind_speed</norm>
-      </field>
-      <field>
-        <name>Dallas</name>
-        <value>Dallas</value>
         <norm>wind_speed</norm>
       </field>
       <field>
@@ -5272,53 +2680,8 @@
         <norm>wind_speed</norm>
       </field>
       <field>
-        <name>Kansas City</name>
-        <value>Kansas City</value>
-        <norm>wind_speed</norm>
-      </field>
-      <field>
         <name>Minneapolis</name>
         <value>Minneapolis</value>
-        <norm>wind_speed</norm>
-      </field>
-      <field>
-        <name>Saint Louis</name>
-        <value>Saint Louis</value>
-        <norm>wind_speed</norm>
-      </field>
-      <field>
-        <name>Chicago</name>
-        <value>Chicago</value>
-        <norm>wind_speed</norm>
-      </field>
-      <field>
-        <name>Nashville</name>
-        <value>Nashville</value>
-        <norm>wind_speed</norm>
-      </field>
-      <field>
-        <name>Indianapolis</name>
-        <value>Indianapolis</value>
-        <norm>wind_speed</norm>
-      </field>
-      <field>
-        <name>Atlanta</name>
-        <value>Atlanta</value>
-        <norm>wind_speed</norm>
-      </field>
-      <field>
-        <name>Detroit</name>
-        <value>Detroit</value>
-        <norm>wind_speed</norm>
-      </field>
-      <field>
-        <name>Jacksonville</name>
-        <value>Jacksonville</value>
-        <norm>wind_speed</norm>
-      </field>
-      <field>
-        <name>Charlotte</name>
-        <value>Charlotte</value>
         <norm>wind_speed</norm>
       </field>
       <field>
@@ -5327,63 +2690,8 @@
         <norm>wind_speed</norm>
       </field>
       <field>
-        <name>Pittsburgh</name>
-        <value>Pittsburgh</value>
-        <norm>wind_speed</norm>
-      </field>
-      <field>
-        <name>Toronto</name>
-        <value>Toronto</value>
-        <norm>wind_speed</norm>
-      </field>
-      <field>
-        <name>Philadelphia</name>
-        <value>Philadelphia</value>
-        <norm>wind_speed</norm>
-      </field>
-      <field>
-        <name>New York</name>
-        <value>New York</value>
-        <norm>wind_speed</norm>
-      </field>
-      <field>
-        <name>Montreal</name>
-        <value>Montreal</value>
-        <norm>wind_speed</norm>
-      </field>
-      <field>
         <name>Boston</name>
         <value>Boston</value>
-        <norm>wind_speed</norm>
-      </field>
-      <field>
-        <name>Beersheba</name>
-        <value>Beersheba</value>
-        <norm>wind_speed</norm>
-      </field>
-      <field>
-        <name>Tel Aviv District</name>
-        <value>Tel Aviv District</value>
-        <norm>wind_speed</norm>
-      </field>
-      <field>
-        <name>Eilat</name>
-        <value>Eilat</value>
-        <norm>wind_speed</norm>
-      </field>
-      <field>
-        <name>Haifa</name>
-        <value>Haifa</value>
-        <norm>wind_speed</norm>
-      </field>
-      <field>
-        <name>Nahariyya</name>
-        <value>Nahariyya</value>
-        <norm>wind_speed</norm>
-      </field>
-      <field>
-        <name>Jerusalem</name>
-        <value>Jerusalem</value>
         <norm>wind_speed</norm>
       </field>
     </fields>
